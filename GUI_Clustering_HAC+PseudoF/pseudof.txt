@@ -1,0 +1,30 @@
+%menghitung pseudo f statistics
+p=data
+n=length(p);
+x=p;
+for j=1:36
+k=max(p(:,j+3));
+ssw=0;
+sst=0;
+for i=1:k
+anggota=find([p(1:n,j+3)]==i);
+dataC=x(anggota,:);
+na=size(dataC,1);
+m=mean(x);
+rm=repmat(m,na,1);
+dm=(dataC-rm).^2;
+jum=sum(dm);
+sstotal=sum(jum);
+sst=sst+sstotal;
+rata=mean(dataC,1);
+kurang=(dataC-repmat(rata,na,1)).^2;
+total=sum(sum(kurang));
+ssw=ssw+total;
+end
+ssb=(sst-ssw);
+rsq=ssb/sst;
+msb=rsq/(k-1);
+msw=(1-rsq)/(n-k);
+pf(j)=(msb/msw);
+icdrate(j)=(1-rsq);
+end
