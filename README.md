@@ -18,3 +18,6 @@ Klaster keempat : Kab. Sragen, Kab. Rembang, Kab. Demak, serta Kab. Kendal.
 Klaster kelima  : Kab. Grobogan dan Kab. Blora.
 
 Pengelompokan tersebut menunjukkan bahwa klaster 5 merupakan klaster dengan rata-rata indikator kemiskinan tertinggi kemudian disusul dengan klaster 4, klaster 2, klaster 1, dan klaster 3.  Saran dari peneliti untuk Pemerintah Provinsi Jawa Tengah agar lebih memperhatikan kabupaten pada klaster 5 yang memiliki rata-rata indikator kemiskinan tertinggi. Hasil penelitian ini diharapkan dapat menjadi acuan bagi Pemerintah Provinsi Jawa Tengah agar kemiskinan di Provinsi Jawa Tengah tidak semakin meluas dan secara tepat tertangani.
+
+# Referensi
+Badan Pusat Statistik Provinsi Jawa Tengah. 2021. Data dan Informasi Kemiskinan Provinsi Jawa Tengah 2016-2020. Semarang: Badan Pusat Statistik Provinsi Jawa Tengah.
